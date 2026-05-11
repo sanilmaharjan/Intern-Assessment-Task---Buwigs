@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import TopChoices from './components/TopChoices'
+import Games from './components/Games'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <TopChoices />
+      <Games />
     </div>
   )
 }
