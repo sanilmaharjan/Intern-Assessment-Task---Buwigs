@@ -1,0 +1,73 @@
+.top-choices-container {
+  padding: 0 48px 48px 48px;
+  margin-top: 48px;
+}
+
+.top-choices-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.top-choices-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.top-choices-controls {
+  display: flex;
+  gap: 16px;
+}
+
+.control-btn {
+  background: transparent;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  transition: color 0.2s;
+}
+
+.control-btn:hover {
+  color: white;
+}
+
+.top-choices-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.choice-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.choice-card:hover {
+  transform: translateY(-4px);
+}
+
+.choice-image-container {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+.choice-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain; 
+}
+
+

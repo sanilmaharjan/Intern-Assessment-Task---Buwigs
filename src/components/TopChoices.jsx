@@ -8,10 +8,10 @@ import freefireImg from '../assets/images/FF diamond.png';
 import valorantImg from '../assets/images/valo gift card.png';
 
 const choices = [
-  { id: 1, title: 'iTunes Giftcard', type: 'Giftcard', price: 'NRP 800.00', img: itunesImg },
-  { id: 2, title: 'Pubg Uc', type: 'Giftcard', price: 'NRP 1200.00', img: pubgImg },
-  { id: 3, title: 'FreeFire Diamond', type: 'Giftcard', price: 'NRP 600.00', img: freefireImg },
-  { id: 4, title: 'Valorant Giftcard', type: 'Giftcard', price: 'NRP 2200.00', img: valorantImg },
+  { id: 1, img: itunesImg, alt: 'iTunes Giftcard' },
+  { id: 2, img: pubgImg, alt: 'Pubg Uc' },
+  { id: 3, img: freefireImg, alt: 'FreeFire Diamond' },
+  { id: 4, img: valorantImg, alt: 'Valorant Giftcard' },
 ];
 
 const TopChoices = () => {
@@ -29,12 +29,7 @@ const TopChoices = () => {
         {choices.map(choice => (
           <div key={choice.id} className="choice-card">
             <div className="choice-image-container">
-              <img src={choice.img} alt={choice.title} className="choice-image" />
-            </div>
-            <div className="choice-details">
-              <span className="choice-type">{choice.type}</span>
-              <h3 className="choice-name">{choice.title}</h3>
-              <span className="choice-price">{choice.price}</span>
+              <img src={choice.img} alt={choice.alt} className="choice-image" />
             </div>
           </div>
         ))}
