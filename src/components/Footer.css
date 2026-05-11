@@ -1,0 +1,136 @@
+.footer-container {
+  padding: 48px;
+  background-color: #121212;
+  margin-top: 48px;
+  border-top: 1px solid #222;
+  font-family: 'Inter', sans-serif;
+  color: #a0a0a0;
+}
+
+.footer-top-logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+  margin-bottom: 48px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  align-items: stretch;
+}
+
+.footer-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+}
+
+.footer-left-logo {
+  margin-bottom: 24px;
+  display: inline-flex;
+  width: fit-content;
+}
+
+.footer-middle {
+  gap: 36px;
+  padding-top: 8px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 15px;
+  color: #a0a0a0;
+  line-height: 1.5;
+}
+
+.contact-icon {
+  color: #fff;
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.social-icon {
+  color: white;
+  background-color: #222;
+  padding: 8px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.social-icon:hover {
+  background-color: #444;
+}
+
+.trustpilot-review {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #a0a0a0;
+  margin-bottom: 24px;
+}
+
+.trustpilot-review strong {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.trustpilot-star {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-image-container {
+  margin-top: auto;
+  display: flex;
+}
+
+.footer-banner-container {
+  max-width: 100%;
+}
+
+.nvidia-container {
+  max-width: 200px;
+}
+
+.footer-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
