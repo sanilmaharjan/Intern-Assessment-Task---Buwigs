@@ -1,0 +1,29 @@
+.hero-container {
+  display: flex;
+  padding: 0 48px;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.hero-left {
+  flex: 1.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
