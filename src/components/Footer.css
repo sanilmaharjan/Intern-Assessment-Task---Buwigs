@@ -34,7 +34,7 @@
 }
 
 .footer-text {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.6;
   margin: 0 0 24px 0;
 }
@@ -54,7 +54,7 @@
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  font-size: 15px;
+  font-size: 16px;
   color: #a0a0a0;
   line-height: 1.5;
 }
@@ -67,7 +67,7 @@
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   font-weight: 600;
   margin: 0 0 20px 0;
@@ -82,11 +82,11 @@
 .social-icon {
   color: white;
   background-color: #222;
-  padding: 8px 10px;
+  padding: 10px 10px;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.2s;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -99,7 +99,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 15px;
+  font-size: 16px;
   color: #a0a0a0;
   margin-bottom: 24px;
 }
@@ -107,7 +107,7 @@
 .trustpilot-review strong {
   color: white;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .trustpilot-star {
